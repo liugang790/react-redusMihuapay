@@ -1,0 +1,30 @@
+@import '../../../../colors';
+
+.overview {
+  margin-bottom: 20px;
+
+  .overview-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .overview-item {
+    border-bottom: 1px solid $mh-color-separator-dark;
+    border-left: 1px solid $mh-color-separator-dark;
+    border-top: 1px solid $mh-color-separator-dark;
+    padding: 15px;
+
+    &:last-child {
+      border-right: 1px solid $mh-color-separator-dark;
+    }
+  }
+
+  .overview-item-desc {
+    margin-bottom: 8px;
+  }
+
+  .overview-item-data {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

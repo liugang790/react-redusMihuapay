@@ -1,0 +1,70 @@
+{
+    "extends": ["tslint:latest", "tslint-react"],
+    "rules": {
+      "no-var-requires": false,
+      "quotemark": [
+          true,
+          "single",
+          "jsx-double"
+      ],
+      "curly": false,
+      "jsx-no-lambda": true,
+      "semicolon": [true, "never"],
+      "ordered-imports": [true, {"import-sources-order": "lowercase-last", "named-imports-order": "lowercase-first"}],
+      "no-console": [true, "dir", "error", "warn"],
+      "interface-name": [false, "never-prefix"],
+      "no-any": true,
+      "no-import-side-effect": [
+        true,
+        {
+          "ignore-module": ".scss|jest"
+        }
+      ]
+    },
+    "jsRules": {
+        "no-console": [true, "dir", "error", "warn"],
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "no-duplicate-variable": true,
+        "no-eval": true,
+        "no-trailing-whitespace": true,
+        "no-unsafe-finally": true,
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "semicolon": [
+            true,
+            "never"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ]
+    }
+}

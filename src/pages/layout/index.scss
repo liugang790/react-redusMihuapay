@@ -1,0 +1,26 @@
+@import '../../colors';
+
+html,
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.page-container {
+  height: 100%;
+}
+
+.page-main {
+  height: 100%;
+  overflow: auto;
+  padding-top: 54px;
+}
+
+.logo {
+  background: $mh-color-black-dark;
+  color: $mh-color-white;
+  font-size: 16px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+}

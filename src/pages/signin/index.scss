@@ -1,0 +1,56 @@
+@import '../../colors';
+
+.page-signin {
+  background-image: url('//static.cloudpayfs.com/images/sigin-bg.jpg');
+  background-position: 0 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .header {
+    background: $mh-color-white;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px 100px;
+
+    .logo {
+      background: rgba(255, 255, 255, 0.67);
+      height: 50px;
+      width: auto;
+    }
+  }
+
+  .content {
+    .sign-box {
+      background: $mh-color-white-transparent-75;
+      border-radius: 5px;
+      margin-top: 80px;
+      max-width: 300px;
+      min-width: 300px;
+      padding: 50px 36px 35px;
+    }
+  }
+
+  .footer {
+    background: $mh-color-white;
+    bottom: 0;
+    color: $mh-color-text-gray;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-signin {
+    .header {
+      padding: 15px 50px;
+    }
+
+    .sign-box {
+      margin: 0 auto;
+    }
+  }
+}
